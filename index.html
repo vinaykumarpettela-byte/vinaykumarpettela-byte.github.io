@@ -3,181 +3,88 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Kumar Raja Kamminti">
-  <title>Kumar Raja Kamminti | Portfolio</title>
+  <title>Kumar Raja Kamminti | Resume</title>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css" />
-
+  <link rel="stylesheet" href="resume-style.css" />
 </head>
 <body>
+  <div class="resume-container">
 
-<!-- Theme Toggle Button -->
-<button id="theme-toggle" title="Toggle Dark/Light Mode"><i class="fas fa-moon"></i></button>
-
-<!-- Navbar -->
-<header class="header" id="home">
-  <nav class="navbar">
-    <ul class="nav-items">
-      <li><a href="#home">Profile</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#interest">Interests</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="https://drive.google.com/file/d/1zmFenKfH4lzwfdh2yzOjRu0fEJDkC_W6/view?usp=sharing" target="_blank"><button class="resume-button">Resume</button></a></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-  <!-- Hero Section -->
-  <section class="hero-section" id="home">
-    <div class="hero-container">
-      <h6 class="hero-name">Kumar Raja Kamminti</h6>
-      <h1 class="hero-heading">I'm a Creative <span>Developer</span></h1>
-      <p class="hero-para">Creative and detail-oriented Game Developer and Level Designer with a passion for building immersive gameplay experiences in Unreal Engine 5.</p>
-
-      <div class="hero-social-links">
-        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
-      </div>
-
-      <a href="https://drive.google.com/file/d/1zmFenKfH4lzwfdh2yzOjRu0fEJDkC_W6/view?usp=sharing" target="_blank">
-        <button class="hero-btn">DOWNLOAD CV</button>
-      </a>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="about-section">
-    <div class="about-container">
-      <h1 class="section-title">About <span>Me</span></h1>
-      <div class="about-content">
-        <p><strong>Who I Am:</strong> My journey into game development began with a deep passion for interactive storytelling. I specialize in designing gameplay systems using Unreal Engine Blueprints.</p>
-        <p><strong>Professional Experience:</strong> Completed a 3-month internship at Haika Studios as a Game & Level Designer, designing gameplay mechanics and testing levels.</p>
-        <p><strong>Looking Ahead:</strong> Excited to contribute innovative ideas and build memorable gaming experiences.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Interests Section -->
-  <section id="interest" class="interest-section">
-    <h1 class="section-title"><span>My</span> Interests</h1>
-    <div class="interest-grid">
-      <div class="interest-card">
-        <i class="fas fa-globe interest-icon"></i>
-        <h2>World Building</h2>
-        <p>Crafting immersive game worlds with deep lore and unique environments.</p>
-      </div>
-      <div class="interest-card">
-        <i class="fas fa-feather-alt interest-icon"></i>
-        <h2>Narrative Design</h2>
-        <p>Developing story-driven experiences through character arcs and player choices.</p>
-      </div>
-      <div class="interest-card">
-        <i class="fas fa-gamepad interest-icon"></i>
-        <h2>Game Jams</h2>
-        <p>Participating in rapid prototyping challenges to build unique ideas.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="skills-section">
-    <h1 class="section-title"><span>My</span> Skills</h1>
-    <div class="skills-wrapper">
-      <div class="skill">
-        <span>Unreal Engine (Blueprints)</span>
-        <div class="skill-bar"><div class="skill-progress" style="--progress: 95%"></div></div>
-      </div>
-      <div class="skill">
-        <span>Blender</span>
-        <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
-      </div>
-      <div class="skill">
-        <span>Level Design</span>
-        <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
-      </div>
-      <div class="skill">
-        <span>Combat Design</span>
-        <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="projects-section">
-    <h1 class="section-title"><span>My</span> Projects</h1>
-    <div class="projects-grid">
-      <div class="projects-card">
-        <iframe src="https://drive.google.com/file/d/1mvj1bte1b4A4Y0cxpiQEjAsRq3fACE_a/preview" allow="autoplay"></iframe>
-        <div class="projects-overlay">
-          <h3>Maze</h3>
-          <p>Dark, atmospheric maze designed in Unreal Engine with environmental storytelling.</p>
-        </div>
-      </div>
-      <div class="projects-card">
-        <iframe src="https://drive.google.com/file/d/1foKugIzkW0a7umhtIx1TCUW8uCXFDjY3/preview" allow="autoplay"></iframe>
-        <div class="projects-overlay">
-          <h3>Drone Camera Mechanics</h3>
-          <p>Advanced drone camera systems with dynamic tracking in Unreal Engine.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section">
-    <h1 class="section-title">Get in <span>Touch</span></h1>
-    <div class="contact-info-wrapper">
+    <!-- Header / Profile -->
+    <header class="resume-header">
+      <h1>Kumar Raja Kamminti</h1>
+      <h2>Game Developer | Level Designer</h2>
       <div class="contact-info">
-        <i class="fas fa-phone"></i>
-        <div><h4>Call</h4><p>+91 9182790563</p></div>
+        <span><i class="fas fa-phone"></i> +91 9182790563</span>
+        <span><i class="fas fa-envelope"></i> kammintikumarraja1182@gmail.com</span>
+        <span><i class="fas fa-map-marker-alt"></i> Kakinada, Andhra Pradesh</span>
+        <span><i class="fas fa-download"></i> <a href="https://drive.google.com/file/d/1zmFenKfH4lzwfdh2yzOjRu0fEJDkC_W6/view?usp=sharing" target="_blank">Download CV</a></span>
       </div>
-      <div class="contact-info">
-        <i class="fas fa-envelope"></i>
-        <div><h4>Email</h4><p>kammintikumarraja1182@gmail.com</p></div>
+    </header>
+
+    <!-- About Me -->
+    <section class="resume-section">
+      <h3>About Me</h3>
+      <p>Creative and detail-oriented Game Developer and Level Designer with experience in Unreal Engine 5. Skilled in building immersive gameplay, level design, and enemy AI behaviors. Seeking opportunities to contribute to innovative gaming projects.</p>
+    </section>
+
+    <!-- Experience -->
+    <section class="resume-section">
+      <h3>Experience</h3>
+      <div class="experience-item">
+        <h4>Game Designer & Level Designer - Haika Studios (Internship)</h4>
+        <span>3 Months</span>
+        <p>Designed gameplay mechanics, built levels, and collaborated with the team using Unreal Engine Blueprints.</p>
       </div>
-      <div class="contact-info">
-        <i class="fas fa-map-marker-alt"></i>
-        <div><h4>Visit</h4><p>Kakinada, Andhra Pradesh</p></div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-</main>
+    <!-- Skills -->
+    <section class="resume-section">
+      <h3>Skills</h3>
+      <ul class="skills-list">
+        <li>Unreal Engine (Blueprints) - 95%</li>
+        <li>Level Design - 90%</li>
+        <li>Game Design - 90%</li>
+        <li>Blender - 85%</li>
+        <li>Combat Design - 80%</li>
+        <li>Game Balancing - 85%</li>
+        <li>Enemy AI Behaviour - 80%</li>
+      </ul>
+    </section>
 
-<!-- Footer -->
-<footer class="footer-section">
-  <p>&copy; 2025 Kumar Raja Kamminti. All Rights Reserved.</p>
-</footer>
+    <!-- Projects -->
+    <section class="resume-section">
+      <h3>Projects</h3>
+      <ul class="projects-list">
+        <li><strong>Maze:</strong> Dark atmospheric maze designed in Unreal Engine with environmental storytelling.</li>
+        <li><strong>Drone Camera Mechanics:</strong> Advanced drone camera systems with dynamic tracking and cinematic control.</li>
+        <li><strong>RPG Project:</strong> Ongoing RPG project featuring combat systems, inventory, and quest mechanics in Unreal Engine.</li>
+      </ul>
+    </section>
 
-<!-- Smooth Scroll & Theme Toggle JS -->
-<script>
-  // Smooth scroll
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e){
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-    });
-  });
+    <!-- Education / Certifications (Optional) -->
+    <section class="resume-section">
+      <h3>Education</h3>
+      <p>Bachelor’s Degree / Relevant Game Development Courses (if any)</p>
+    </section>
 
-  // Dark/Light theme toggle
-  const toggle = document.getElementById('theme-toggle');
-  toggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark-theme');
-    toggle.innerHTML = document.body.classList.contains('dark-theme') ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
-  });
-</script>
+    <!-- Contact -->
+    <section class="resume-section">
+      <h3>Contact</h3>
+      <p>You can reach me via email or phone for professional inquiries.</p>
+    </section>
 
+    <footer>
+      <p>&copy; 2025 Kumar Raja Kamminti</p>
+    </footer>
+
+  </div>
 </body>
 </html>
